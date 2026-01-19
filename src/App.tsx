@@ -3,6 +3,7 @@ import EigthButton from "./components/EigthButton";
 import FifthButton from "./components/FifthButton";
 import FirstButton from "./components/FirstButton";
 import FourthButton from "./components/FourthButton";
+import NinethButton from "./components/NinethButton";
 import SecondButton from "./components/SecondButton";
 import SeventhButton from "./components/SeventhButton";
 import SixthButton from "./components/SixthButton";
@@ -48,6 +49,7 @@ function App() {
         <SixthButton />
         <SeventhButton />
         <EigthButton />
+        <NinethButton />
       </div>
     </div>
   )

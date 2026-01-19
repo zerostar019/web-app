@@ -3,7 +3,7 @@ const SeventhButton = () => {
         <div
             onClick={(e) => {
                 e.preventDefault();
-                window.location.href = 'https://t.me/c/1882043739/615';
+                window.location.href = 'https://t.me/c/1882043739/1151';
             }}
             style={{
             display: "flex",
@@ -11,7 +11,7 @@ const SeventhButton = () => {
             alignItems: "center",
             justifyContent: "center"
         }}>
-            <span>HELLO</span>
+            <span>I'm</span>
             <div
                 style={{
                     position: 'relative',
@@ -35,7 +35,7 @@ const SeventhButton = () => {
                     }}
                 />
                 <img
-                    src="elements/hola.svg"
+                    src="elements/russian.svg"
                     alt="8500"
                     style={{
                         position: 'absolute',
@@ -43,14 +43,14 @@ const SeventhButton = () => {
                         height: 31,
                         zIndex: 2,
                         pointerEvents: 'none',
-                        transform: 'translate(1%, -25%)',
+                        transform: 'translate(1%, -20%)',
                         objectFit: 'contain',
                     }}
                 />
             </div>
             <span style={{
                 color: "#fff"
-            }}>ПРИВЕТ</span>
+            }}>ПРИВЕТ!</span>
         </div>
     )
 }
