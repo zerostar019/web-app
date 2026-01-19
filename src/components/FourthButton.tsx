@@ -1,6 +1,11 @@
 const FourthButton = () => {
     return (
-        <div style={{
+        <div
+            onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://t.me/c/1882043739/1228';
+            }}
+            style={{
             background: "#fff",
             borderRadius: '12px',
             padding: '12px',

@@ -1,6 +1,11 @@
 const SixthButton = () => {
     return (
-        <div style={{
+        <div
+            onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://t.me/c/1882043739/1248';
+            }}
+            style={{
             background: "#fff",
             borderRadius: "12px",
             display: "flex",

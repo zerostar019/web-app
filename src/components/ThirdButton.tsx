@@ -1,6 +1,10 @@
 const ThirdButton = () => {
     return (
         <div
+            onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://t.me/c/1882043739/647';
+            }}
             style={{
                 display: 'flex',
                 flexDirection: 'column',

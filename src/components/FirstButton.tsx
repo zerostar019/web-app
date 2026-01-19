@@ -1,6 +1,11 @@
 const FirstButton = () => {
     return (
-        <div>
+        <div
+            onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://t.me/c/1882043739/153';
+        }}
+        >
             <div
                 style={{
                     display: 'flex',

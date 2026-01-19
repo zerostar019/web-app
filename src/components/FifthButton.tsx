@@ -1,6 +1,11 @@
 const FifthButton = () => {
     return (
-        <div style={{
+        <div
+            onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://t.me/+1oW-F_6w5YtlNzNi';
+            }}
+            style={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
